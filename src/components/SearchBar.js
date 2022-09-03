@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom'
 import {Paper, IconButton} from '@mui/material'
 import { Search } from '@mui/icons-material'
 
-const SearchBar = () => {
+const SearchBar = ({select}) => {
   return (
     <Paper 
     component="form"
