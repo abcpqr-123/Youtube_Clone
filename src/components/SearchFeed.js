@@ -14,9 +14,10 @@ const SearchFeed = () => {
     const { searchTerm } = useParams()
 
     useEffect(() => {
-        fetchFromAPI(`search?part=snippet&q={searchTerm}`)
+        fetchFromAPI(`search?part=snippet&q=$
+        {searchTerm}`)
         .then((data) => setVideos(data.items))
-    },[{searchTerm}])
+    },[searchTerm])
 
   return (
     //  <Stack sx={{flexDirection: {sx: "column", md:"row"}}}>
