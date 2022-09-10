@@ -12,11 +12,11 @@ const SearchFeed = () => {
     // setSelectedCategory] = useState('New');
 
 
-//********************************************* */
-    // const [videos, setVideos] = useState([])
 
-//********************************************* */
-    const [videos, setVideos] = useState(null)
+    const [videos, setVideos] = useState([])
+
+
+    // const [videos, setVideos] = useState(null)
     const { searchTerm } = useParams()
 
     useEffect(() => {
