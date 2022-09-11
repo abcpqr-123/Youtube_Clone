@@ -8,7 +8,7 @@ import { fetchFromAPI } from '../utils/fectchFromAPI'
 
 const Feed = () => {
     const [selectedCategory, 
-    setSelectedCategory] = useState('New');
+    setSelectedCategory] = useState('Coding');
     const [videos, setVideos] = useState([])
 
     useEffect(() => {
